@@ -44,6 +44,7 @@ import com.llmchat.data.local.entity.Conversation
 import java.text.DateFormat
 import java.util.Date
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ConversationListScreen(
     onOpenConversation: (Long) -> Unit,
